@@ -1,0 +1,10 @@
+{
+  "parts": [
+    {
+      "name": "ep_roles",
+      "hooks": {
+        "expressConfigure": "ep_roles/index.js:expressConfigure"
+      }
+    }
+  ]
+}
